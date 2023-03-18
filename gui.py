@@ -4,6 +4,7 @@ import time
 from PIL import Image, ImageTk
 import tkinter as tk
 
+
 # video input
 cap = cv2.VideoCapture('video.mp4')
 
@@ -18,7 +19,7 @@ car_threshold = 100
 # initial traffic light state
 traffic_light_state = "red"
 
-# Define  timerrrrrrrrrr
+# Define  timerrrrrrrrr
 start_time = time.time()
 
 # evnt handler for  keys detections
