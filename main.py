@@ -20,22 +20,6 @@ traffic_light_state = "red"
 # Define  timerrrrrrrrrr
 start_time = time.time()
 
-# evnt handler for  keys detections
-
-
-def keyboard_event_handler(event):
-    global traffic_light_state, start_time
-    if event == ord('r'):
-        traffic_light_state = "red"
-        start_time = time.time()
-    elif event == ord('y'):
-        traffic_light_state = "yellow"
-        start_time = time.time()
-    elif event == ord('g'):
-        traffic_light_state = "green"
-        start_time = time.time()
-
-
 # Main loop
 while True:
     # Capture video frame
