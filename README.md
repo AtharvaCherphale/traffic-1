@@ -1,7 +1,13 @@
 # traffic-management-system
 
+run main.py
+install modules from requirements.txt 
 
+### pip install -r requirements.txt
+
+#
 cars on lane stock video link https://drive.google.com/file/d/1V7r13TIAzvX94UF5qQleDibUEZOADo86/view?usp=share_link
+
 
 
 
